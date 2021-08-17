@@ -2,9 +2,9 @@ export default {
   title: 'dark',
 
   colors: {
-    main: '#FFC900',
+    main: 'rgb(130, 87, 230)',
 
-    background: '#000000',
+    background: 'rgb(32, 32, 36)',
     switcherBackg: '#333',
     text: '#ffffff',
 

@@ -7,7 +7,7 @@ import React, {
 } from 'react'
 import AsyncStorage from '@react-native-community/async-storage'
 
-import { cityData, WeatherHistoryDate } from '../types/cityData'
+import { cityData, WeatherHistoryDate } from '../types/CityData'
 
 export type List = {
   cities: WeatherHistoryDate[]
@@ -47,7 +47,6 @@ const ListProvider: React.FC = ({ children }) => {
         const dataNow = new Date()
 
         const ItemWithDataTimeAdded = { ...item, date: dataNow }
-        console.log(ItemWithDataTimeAdded)
         newList.cities.push(ItemWithDataTimeAdded)
 
         await AsyncStorage.setItem('@list_cities', JSON.stringify(newList))

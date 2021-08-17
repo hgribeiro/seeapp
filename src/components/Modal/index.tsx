@@ -41,7 +41,6 @@ function Modal() {
                 <Title
                   style={{
                     color: colors.main,
-                    fontWeight: 'bold',
                   }}
                 >
                   Configurações
@@ -56,7 +55,6 @@ function Modal() {
                   <TitleConfig>Alterar Tema</TitleConfig>
                   <ToggleTheme />
                 </Config>
-                <Config></Config>
               </Main>
             </ModalStyled>
           </Container>

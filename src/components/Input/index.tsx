@@ -87,6 +87,7 @@ const Input: React.RefForwardingComponent<InputRef, InputProps> = (
         onChangeText={value => {
           inputValueRef.current.value = value
         }}
+        onSubmitEditing={onSubmitEditing}
         {...rest}
       />
       <TouchableOpacity onPress={onSubmitEditing}>

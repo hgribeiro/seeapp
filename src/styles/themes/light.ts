@@ -2,11 +2,11 @@ export default {
   title: 'light',
 
   colors: {
-    main: '#FFC900',
+    main: 'rgb(130, 87, 230)',
 
     background: '#FFFFFF',
     switcherBackg: '#d6d6d6',
-    text: '#0d0d0d',
+    text: 'rgb(32, 32, 36)',
 
     tabBarActiveBackgroundColor: '#ebebeb',
     tabBarIconInactiveColor: '#2c2c2c',

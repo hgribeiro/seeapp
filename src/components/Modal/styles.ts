@@ -11,18 +11,18 @@ export const Container = styled.View`
 
 export const ModalStyled = styled.View`
   width: 320px;
-  height: 400px;
+  height: 360px;
   background-color: ${props => props.theme.colors.inputBackground};
-  border-radius: 5px;
+  border-radius: 16px;
   padding: 16px;
 `
 export const Header = styled.View`
   height: 20%;
-  padding: 8px;
+  padding: 4px;
 
   flex-direction: row;
 
-  justify-content: flex-end;
+  justify-content: space-between;
 `
 
 export const Main = styled.View`
@@ -40,6 +40,9 @@ export const Config = styled.View`
   padding: 32px;
 
   justify-content: space-between;
+
+  border: 1px solid black;
+  border-radius: 16px;
 `
 
 export const Title = styled.Text`
@@ -49,7 +52,7 @@ export const Title = styled.Text`
 `
 
 export const TitleConfig = styled.Text`
-  font-size: 16px;
+  font-size: 24px;
 
   color: ${props => props.theme.colors.text};
 
